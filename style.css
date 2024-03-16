@@ -1,0 +1,121 @@
+*{background-color: rgb(149, 250, 250);
+  line-height: 1;
+  margin-top: 0px;
+  padding-left: 0px;
+  box-sizing: border-box;
+}
+header img {
+  width: 1000px;
+  height: auto;
+}
+header{
+  display: flex;
+  justify-content: center;
+}
+b{
+  display: flex;
+  justify-content: flex-start;
+}
+.intro{
+  align-items: center;
+  margin: 0;
+  padding: 0 15%;
+  font-size: 25px;
+  font-family: "Josefin Sans", sans-serif;
+    
+}
+.titulo{
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  padding: 5% 0;
+  font-size: 55px;
+  font-family: "Josefin Sans", sans-serif;
+  margin-left: 0px; 
+  margin-right:0px;
+}
+.titulo-1{
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  align-items: center;
+  font-size: 30px;
+  font-family: "Josefin Sans", sans-serif;
+}
+.contenedor{
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  align-items: center;
+  text-align: center;
+}
+.contenedor div{
+  margin: 20px;
+  text-align: center;
+}
+.contenedor img{
+  display: block;
+  margin: auto;
+  width: 400px;
+}
+.target{
+  margin-left: auto;
+  margin-right: auto;
+}
+.letras1 {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 40px;
+}
+.card{
+  padding: 10px;
+  margin: 10px 15px 10px 15px;
+  background: white;
+  border-radius: 100%;
+  transition: border-radius 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1),0 0  0 2px rgb(190, 190, 190),0.3em 0.3em 1em rgba(0,0,0,0.3);      
+} 
+.card:hover {
+  cursor: pointer;
+  transform: scale(0.97);
+  filter: brightness(110%);
+  }
+.target{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  }
+.card {
+  flex: 1 1 calc(20% - 40px);
+  margin-bottom: 15px;
+  }
+footer{
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+.texto2{
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  font-size: 30px;
+  font-family: "Josefin Sans", sans-serif;
+}
+.texto1{
+  align-items: center;
+  padding: 0 50px;
+  font-size: 20px;
+  font-family: "Josefin Sans", sans-serif;
+}
+.enlaces{
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+}
+div a{
+  margin-right: 60px;
+}
